@@ -21,6 +21,7 @@
   <remote name="suda" fetch="https://github.com" review=".." /> 
 
   <!-- paranoiagu Projects -->
+  <project path="android" name="paranoiagu/android"  remote="suda" />
   <project path="vendor/cm" name="paranoiagu/android_vendor_cm" remote="suda" />
 
   <!-- sudamod Projects -->
