@@ -21,6 +21,9 @@
   <remote name="suda" fetch="https://github.com" review=".." />
 
   <!-- paranoiagu Projects -->
+  <project path="build" name="paranoiagu/android_build" remote="suda" groups="pdk,tradefed">
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
   <project path="android" name="paranoiagu/android"  remote="suda" />
   <project path="vendor/cm" name="paranoiagu/android_vendor_cm" remote="suda" />
 
@@ -32,9 +35,6 @@
   <project path="packages/apps/PhoneCommon" remote="suda" revision="sm-3.1" name="SudaMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
 
   <!-- AOSP Projects -->
-  <project path="build" name="LineageOS/android_build" groups="pdk,tradefed">
-    <copyfile src="core/root.mk" dest="Makefile" />
-  </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
