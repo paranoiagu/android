@@ -46,6 +46,7 @@
   <project path="packages/apps/ContactsCommon" name="LineageOMS/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/Contacts" name="LineageOMS/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="frameworks/native" name="LineageOMS/android_frameworks_native" groups="pdk" />
+  <project path="packages/apps/ThemeInterfacer" name="substratum/interfacer" remote="suda" revision="n-rootless" />
 
   <!-- AOSP Projects -->
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
