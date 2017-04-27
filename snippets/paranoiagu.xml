@@ -33,7 +33,7 @@
 
     <!-- Get rid of Lineage repos because of sudamod -->
     <remove-project name="LineageOS/android_build" />
-    <remove-project name="LineageOS/PhoneCommon" />
+    <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_packages_apps_Messaging" />
     <remove-project name="LineageOS/android_packages_apps_Calendar" />
