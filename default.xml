@@ -512,4 +512,7 @@
 
   <include name="snippets/cm.xml" />
 
+  <!-- paranoiagu mod -->
+  <include name="snippets/paranoiagu.xml" />
+
 </manifest>
