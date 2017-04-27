@@ -46,7 +46,7 @@
     <project path="packages/apps/Calendar" name="paranoiagu/android_packages_apps_Calendar" />
 
     <!-- Track sudamod others -->
-    <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-3.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
-    <project path="external/suda/SudaSDKs" remote="suda" revision="sm-3.1" name="SudaMod/android_external_suda_SudaSDKs" />
+    <project path="packages/providers/PhoneLocationProvider" remote="github" revision="sm-3.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
+    <project path="external/suda/SudaSDKs" remote="github" revision="sm-3.1" name="SudaMod/android_external_suda_SudaSDKs" />
 
 </manifest>
