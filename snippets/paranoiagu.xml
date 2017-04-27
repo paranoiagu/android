@@ -33,14 +33,12 @@
 
     <!-- Get rid of Lineage repos because of sudamod -->
     <remove-project name="LineageOS/android_build" />
-    <remove-project name="LineageOS/android_packages_apps_PhoneCommon" />
     <remove-project name="LineageOS/android_packages_providers_ContactsProvider" />
     <remove-project name="LineageOS/android_packages_apps_Messaging" />
     <remove-project name="LineageOS/android_packages_apps_Calendar" />
 
     <!-- Track paranoiagu repos -->
     <project path="build" name="paranoiagu/android_build" />
-    <project path="packages/apps/PhoneCommon" name="paranoiagu/android_packages_apps_PhoneCommon" />
 
     <!-- Track sudamod repos -->
     <project path="packages/providers/ContactsProvider" name="paranoiagu/android_packages_providers_ContactsProvider" />
