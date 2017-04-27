@@ -15,8 +15,8 @@
 
     <!-- Track paranoiagu repos -->
     <project path="frameworks/base" name="paranoiagu/android_frameworks_base" />
-    <project path="packages/apps/Dialer" name="paranoiagu/android_packages_apps_Dialer-LOS" />
-    <project path="packages/apps/PhoneCommon" name="paranoiagu/android_packages_apps_PhoneCommon" />
+    <project path="packages/apps/Dialer" revision="sm-3.1" name="paranoiagu/android_packages_apps_Dialer-LOS" />
+    <project path="packages/apps/PhoneCommon" revision="sm-3.1" name="paranoiagu/android_packages_apps_PhoneCommon" />
     <project path="vendor/cm" name="paranoiagu/android_vendor_cm" />
 
     <!-- Track OMS repos -->
@@ -41,9 +41,9 @@
     <project path="build" name="paranoiagu/android_build" />
 
     <!-- Track sudamod repos -->
-    <project path="packages/providers/ContactsProvider" name="SudaMod/android_packages_providers_ContactsProvider" />
-    <project path="packages/apps/Messaging" name="SudaMod/android_packages_apps_Messaging" />
-    <project path="packages/apps/Calendar" name="SudaMod/android_packages_apps_Calendar" />
+    <project path="packages/providers/ContactsProvider" revision="sm-3.1" name="SudaMod/android_packages_providers_ContactsProvider" />
+    <project path="packages/apps/Messaging" revision="sm-3.1" name="SudaMod/android_packages_apps_Messaging" />
+    <project path="packages/apps/Calendar" revision="sm-3.1" name="SudaMod/android_packages_apps_Calendar" />
 
     <!-- Track sudamod others -->
     <project path="packages/providers/PhoneLocationProvider" remote="github" revision="sm-3.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
