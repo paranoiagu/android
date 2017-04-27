@@ -41,9 +41,9 @@
     <project path="build" name="paranoiagu/android_build" />
 
     <!-- Track sudamod repos -->
-    <project path="packages/providers/ContactsProvider" name="paranoiagu/android_packages_providers_ContactsProvider" />
-    <project path="packages/apps/Messaging" name="paranoiagu/android_packages_apps_Messaging" />
-    <project path="packages/apps/Calendar" name="paranoiagu/android_packages_apps_Calendar" />
+    <project path="packages/providers/ContactsProvider" name="SudaMod/android_packages_providers_ContactsProvider" />
+    <project path="packages/apps/Messaging" name="SudaMod/android_packages_apps_Messaging" />
+    <project path="packages/apps/Calendar" name="SudaMod/android_packages_apps_Calendar" />
 
     <!-- Track sudamod others -->
     <project path="packages/providers/PhoneLocationProvider" remote="github" revision="sm-3.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
